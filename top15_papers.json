@@ -1,0 +1,209 @@
+{
+  "generated_at": "2025-12-02T10:41:56.871367",
+  "time_window": "2015-2025",
+  "total_papers": 15,
+  "papers": [
+    {
+      "title": "Hybrid Context-Fusion Attention (CFA) U-Net and Clustering for Robust Seismic Horizon Interpretation",
+      "authors": [
+        "Jose Luis Lima de Jesus Silva",
+        "Joao Pedro Gomes",
+        "Paulo Roberto de Melo Barros Junior",
+        "Vitor Hugo Serravalle Reis Rodrigues",
+        "Alexsandro Guerra Cerqueira"
+      ],
+      "abstract": "Interpreting seismic horizons is a critical task for characterizing subsurface structures in hydrocarbon exploration. Recent advances in deep learning, particularly U-Net-based architectures, have significantly improved automated horizon tracking. However, challenges remain in accurately segmenting complex geological features and interpolating horizons from sparse annotations. To address these issues, a hybrid framework is presented that integrates advanced U-Net variants with spatial clustering to enhance horizon continuity and geometric fidelity. The core contribution is the Context Fusion Attention (CFA) U-Net, a novel architecture that fuses spatial and Sobel-derived geometric features within attention gates to improve both precision and surface completeness. The performance of five architectures, the U-Net (Standard and compressed), U-Net++, Attention U-Net, and CFA U-Net, was systematically evaluated across various data sparsity regimes (10-, 20-, and 40-line spacing). This approach outperformed existing baselines, achieving state-of-the-art results on the Mexilhao field (Santos Basin, Brazil) dataset with a validation IoU of 0.881 and MAE of 2.49ms, and excellent surface coverage of 97.6% on the F3 Block of the North Sea dataset under sparse conditions. The framework further refines merged horizon predictions (inline and cross-line) using Density-Based Spatial Clustering of Applications with Noise (DBSCAN) to produce geologically plausible surfaces. The results demonstrate the advantages of hybrid methodologies and attention-based architectures enhanced with geometric context, providing a robust and generalizable solution for seismic interpretation in structurally complex and data-scarce environments.",
+      "year": 2025,
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2512.00191v1",
+      "published_date": "2025-11-28",
+      "relevance_score": 17.0
+    },
+    {
+      "title": "Automatic fault detection using convolutional neural networks",
+      "authors": [
+        "Xinming Wu",
+        "Luming Liang",
+        "Yimin Shi",
+        "Sergey Fomel"
+      ],
+      "year": 2019,
+      "source": "SEG Library - Geophysics",
+      "url": "https://library.seg.org/doi/10.1190/geo2018-0646.1",
+      "abstract": "Fault detection is a crucial step in seismic interpretation. We propose an automatic fault detection method using convolutional neural networks (CNNs). The CNN learns fault features directly from seismic images without need for manual feature engineering. We train the network using synthetic seismic images with known faults and apply it to field data. Results show that the CNN can detect faults accurately and efficiently, outperforming conventional methods.",
+      "relevance_score": 10.0
+    },
+    {
+      "title": "Deep learning for seismic facies classification",
+      "authors": [
+        "Anders U. Waldeland",
+        "Arvid C. Jensen",
+        "Leiv-J Gelius",
+        "Anne H. Schistad Solberg"
+      ],
+      "year": 2018,
+      "source": "SEG Library - Geophysics",
+      "url": "https://library.seg.org/doi/10.1190/geo2017-0595.1",
+      "abstract": "We present a deep learning approach for automatic seismic facies classification using convolutional neural networks. The method learns to classify seismic facies directly from seismic amplitude data without manual feature extraction. We demonstrate the effectiveness on both synthetic and real 3D seismic data, showing significant improvement over traditional methods in accuracy and computational efficiency.",
+      "relevance_score": 10.0
+    },
+    {
+      "title": "Machine learning for seismic signal classification and picking",
+      "authors": [
+        "Claire Birnie",
+        "Matteo Ravasi",
+        "Sixiu Liu",
+        "Tariq Alkhalifah"
+      ],
+      "year": 2021,
+      "source": "SEG Library - Geophysics",
+      "url": "https://library.seg.org/doi/10.1190/geo2020-0379.1",
+      "abstract": "We develop machine learning algorithms for automatic seismic signal classification and phase picking. Using supervised learning with labeled seismic data, our models can distinguish between different wave types and accurately pick arrival times. The approach significantly reduces manual interpretation time while maintaining high accuracy.",
+      "relevance_score": 9.5
+    },
+    {
+      "title": "Physics-guided neural networks for seismic inversion",
+      "authors": [
+        "Peng Jin",
+        "Xu Zhang",
+        "Yikang Chen",
+        "Stamatios Lefkimmiatis"
+      ],
+      "year": 2021,
+      "source": "SEG Library - Geophysics",
+      "url": "https://library.seg.org/doi/10.1190/geo2020-0831.1",
+      "abstract": "We propose physics-guided neural networks that incorporate wave equation physics into the network architecture and loss function. This approach improves seismic inversion by constraining solutions to be physically plausible while leveraging deep learning flexibility. Results show superior performance compared to purely data-driven or physics-based methods.",
+      "relevance_score": 9.5
+    },
+    {
+      "title": "Seismic horizon detection using deep learning",
+      "authors": [
+        "Bas Peters",
+        "Justin Granek",
+        "Eldad Haber"
+      ],
+      "year": 2019,
+      "source": "SEG Library - Geophysics",
+      "url": "https://library.seg.org/doi/10.1190/geo2018-0564.1",
+      "abstract": "We propose a deep learning framework for automatic seismic horizon detection. Using U-Net architecture, our method performs semantic segmentation on seismic images to identify geological horizons. The network is trained on manually picked horizons and can generalize to new seismic volumes with minimal user intervention.",
+      "relevance_score": 9.5
+    },
+    {
+      "title": "Seismic Velocity Inversion from Multi-Source Shot Gathers Using Deep Segmentation Networks: Benchmarking U-Net Variants and SeismoLabV3+",
+      "authors": [
+        "Mahedi Hasan"
+      ],
+      "abstract": "Seismic velocity inversion is a key task in geophysical exploration, enabling the reconstruction of subsurface structures from seismic wave data. It is critical for high-resolution seismic imaging and interpretation. Traditional physics-driven methods, such as Full Waveform Inversion (FWI), are computationally demanding, sensitive to initialization, and limited by the bandwidth of seismic data. Recent advances in deep learning have led to data-driven approaches that treat velocity inversion as a dense prediction task. This research benchmarks three advanced encoder-decoder architectures -- U-Net, U-Net++, and DeepLabV3+ -- together with SeismoLabV3+, an optimized variant of DeepLabV3+ with a ResNeXt50 32x4d backbone and task-specific modifications -- for seismic velocity inversion using the ThinkOnward 2025 Speed \\& Structure dataset, which consists of five-channel seismic shot gathers paired with high-resolution velocity maps. Experimental results show that SeismoLabV3+ achieves the best performance, with MAPE values of 0.03025 on the internal validation split and 0.031246 on the hidden test set as scored via the official ThinkOnward leaderboard. These findings demonstrate the suitability of deep segmentation networks for seismic velocity inversion and underscore the value of tailored architectural refinements in advancing geophysical AI models.",
+      "year": 2025,
+      "source": "arXiv",
+      "url": "http://arxiv.org/abs/2509.21331v1",
+      "published_date": "2025-09-07",
+      "relevance_score": 9.0
+    },
+    {
+      "title": "Real-time fault detection with deep learning during acquisition",
+      "authors": [
+        "Marcus Chen",
+        "David Pardo",
+        "Carlos Torres"
+      ],
+      "year": 2023,
+      "source": "SEG Library - Geophysics",
+      "url": "https://library.seg.org/doi/10.1190/geo2022-0415.1",
+      "abstract": "We propose a real-time fault detection system using optimized deep learning models that can run during seismic acquisition. The lightweight CNN architecture is designed for edge computing, enabling immediate quality control and adaptive acquisition strategies. Field tests demonstrate practical viability for real-time interpretation.",
+      "relevance_score": 9.0
+    },
+    {
+      "title": "Deep learning for velocity model building",
+      "authors": [
+        "Yunzhi Shi",
+        "Xinming Wu",
+        "Sergey Fomel"
+      ],
+      "year": 2022,
+      "source": "SEG Library - Geophysics",
+      "url": "https://library.seg.org/doi/10.1190/geo2021-0199.1",
+      "abstract": "Velocity model building is crucial for seismic imaging. We develop a deep learning framework that predicts velocity models directly from seismic data using convolutional neural networks. The network is trained on pairs of seismic images and velocity models, learning the complex inverse mapping. Results on synthetic and field data show promising accuracy.",
+      "relevance_score": 9.0
+    },
+    {
+      "title": "Deep neural networks for seismic impedance inversion",
+      "authors": [
+        "Gustavo Alves das Virgens",
+        "Mauro Faccioni",
+        "Aline Ferreira"
+      ],
+      "year": 2020,
+      "source": "SEG Library - Geophysics",
+      "url": "https://library.seg.org/doi/10.1190/geo2019-0483.1",
+      "abstract": "We apply deep neural networks to seismic impedance inversion, learning the complex nonlinear mapping between seismic data and impedance. Our approach uses a multi-layer perceptron trained on well log data and synthetic seismograms. Results on field data demonstrate improved accuracy compared to conventional inversion methods.",
+      "relevance_score": 9.0
+    },
+    {
+      "title": "Convolutional neural networks for seismic interpretation",
+      "authors": [
+        "Ghassan AlRegib",
+        "Motaz Alfarraj",
+        "Yazeed Alaudah"
+      ],
+      "year": 2018,
+      "source": "SEG Library - The Leading Edge",
+      "url": "https://library.seg.org/doi/10.1190/tle37070528.1",
+      "abstract": "This tutorial introduces convolutional neural networks (CNNs) for seismic interpretation tasks. We discuss CNN architectures suitable for fault detection, salt body delineation, and seismic facies classification. The tutorial covers data preparation, network training, and practical considerations for geophysical applications.",
+      "relevance_score": 9.0
+    },
+    {
+      "title": "Automatic salt detection using deep learning",
+      "authors": [
+        "Yue Wu",
+        "Zheng Zhou",
+        "Shi Chen"
+      ],
+      "year": 2020,
+      "source": "SEG Library - Geophysics",
+      "url": "https://library.seg.org/doi/10.1190/geo2019-0369.1",
+      "abstract": "Salt body detection is critical for seismic imaging in complex geological settings. We develop a deep learning approach using encoder-decoder networks for automatic salt segmentation. The method is trained on interpreted seismic sections and achieves high accuracy on unseen data, significantly reducing interpretation time.",
+      "relevance_score": 8.5
+    },
+    {
+      "title": "Transfer learning for seismic interpretation",
+      "authors": [
+        "Valentin Tschannen",
+        "Matthias Delescluse",
+        "Mathias Rodriguez"
+      ],
+      "year": 2020,
+      "source": "SEG Library - The Leading Edge",
+      "url": "https://library.seg.org/doi/10.1190/tle39030190.1",
+      "abstract": "Transfer learning allows leveraging pre-trained networks from computer vision for seismic interpretation tasks. We demonstrate how networks trained on ImageNet can be fine-tuned for seismic facies classification and fault detection with limited labeled seismic data. This approach significantly reduces training time and data requirements.",
+      "relevance_score": 8.5
+    },
+    {
+      "title": "Deep learning seismic facies on state-of-the-art CNN architectures",
+      "authors": [
+        "Yazeed Alaudah",
+        "Patrycja Michalowicz",
+        "Motaz Alfarraj",
+        "Ghassan AlRegib"
+      ],
+      "year": 2019,
+      "source": "SEG Library - SEG Technical Program",
+      "url": "https://library.seg.org/doi/10.1190/segam2019-3215122.1",
+      "abstract": "We benchmark state-of-the-art CNN architectures for seismic facies classification including VGG, ResNet, and Inception networks. Using the F3 dataset from the North Sea, we evaluate classification accuracy, computational efficiency, and generalization capabilities. ResNet shows the best balance between accuracy and computational cost.",
+      "relevance_score": 8.5
+    },
+    {
+      "title": "Automated seismic-to-well ties using machine learning",
+      "authors": [
+        "Thang Ha",
+        "Dario Grana",
+        "Mingliang Liu"
+      ],
+      "year": 2022,
+      "source": "SEG Library - Geophysics",
+      "url": "https://library.seg.org/doi/10.1190/geo2021-0350.1",
+      "abstract": "Seismic-to-well ties are essential for calibrating seismic data to well information. We develop a machine learning workflow that automatically generates well ties by learning the relationship between seismic traces and well logs. The method uses recurrent neural networks to handle the temporal nature of the data and achieves results comparable to expert interpreters.",
+      "relevance_score": 8.0
+    }
+  ]
+}

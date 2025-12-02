@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Demystifying Feature Engineering in Malware Analysis of API Call Sequences",
+    "authors": [
+      "Tianheng Qu",
+      "Hongsong Zhu",
+      "Limin Sun",
+      "Haining Wang",
+      "Haiqiang Fei",
+      "Zheng He",
+      "Zhi Li"
+    ],
+    "abstract": "Machine learning (ML) has been widely used to analyze API call sequences in malware analysis, which typically requires the expertise of domain specialists to extract relevant features from raw data. The extracted features play a critical role in malware analysis. Traditional feature extraction is based on human domain knowledge, while there is a trend of using natural language processing (NLP) for automatic feature extraction. This raises a question: how do we effectively select features for malware analysis based on API call sequences? To answer it, this paper presents a comprehensive study of investigating the impact of feature engineering upon malware classification.We first conducted a comparative performance evaluation under three models, Convolutional Neural Network (CNN), Long Short-Term Memory (LSTM), and Transformer, with respect to knowledge-based and NLP-based feature engineering methods. We observed that models with knowledge-based feature engineering inputs generally outperform those using NLP-based across all metrics, especially under smaller sample sizes. Then we analyzed a complete set of data features from API call sequences, our analysis reveals that models often focus on features such as handles and virtual addresses, which vary across executions and are difficult for human analysts to interpret.",
+    "year": 2025,
+    "source": "arXiv",
+    "url": "http://arxiv.org/abs/2512.01666v1",
+    "published_date": "2025-12-01",
+    "relevance_score": 6.0,
+    "search_term": "seismic facies classification CNN"
+  },
+  {
+    "title": "Predicting Onsets and Dry Spells of the West African Monsoon Season Using Machine Learning Methods",
+    "authors": [
+      "Colin Bobocea",
+      "Yves Atchadé"
+    ],
+    "abstract": "The beginning of the rainy season and the occurrence of dry spells in West Africa is notoriously difficult to predict, however these are the key indicators farmers use to decide when to plant crops, having a major influence on their overall yield. While many studies have shown correlations between global sea surface temperatures and characteristics of the West African monsoon season, there are few that effectively implementing this information into machine learning (ML) prediction models. In this study we investigated the best ways to define our target variables, onset and dry spell, and produced methods to predict them for upcoming seasons using sea surface temperature teleconnections. Defining our target variables required the use of a combination of two well known definitions of onset. We then applied custom statistical techniques -- like total variation regularization and predictor selection -- to the two models we constructed, the first being a linear model and the other an adaptive-threshold logistic regression model. We found mixed results for onset prediction, with spatial verification showing signs of significant skill, while temporal verification showed little to none. For dry spell though, we found significant accuracy through the analysis of multiple binary classification metrics. These models overcome some limitations that current approaches have, such as being computationally intensive and needing bias correction. We also introduce this study as a framework to use ML methods for targeted prediction of certain weather phenomenon using climatologically relevant variables. As we apply ML techniques to more problems, we see clear benefits for fields like meteorology and lay out a few new directions for further research.",
+    "year": 2025,
+    "source": "arXiv",
+    "url": "http://arxiv.org/abs/2512.01965v1",
+    "published_date": "2025-12-01",
+    "relevance_score": 5.0,
+    "search_term": "seismic facies classification CNN"
+  },
+  {
+    "title": "Disentangling Progress in Medical Image Registration: Beyond Trend-Driven Architectures towards Domain-Specific Strategies",
+    "authors": [
+      "Bailiang Jian",
+      "Jiazhen Pan",
+      "Rohit Jena",
+      "Morteza Ghahremani",
+      "Hongwei Bran Li",
+      "Daniel Rueckert",
+      "Christian Wachinger",
+      "Benedikt Wiestler"
+    ],
+    "abstract": "Medical image registration drives quantitative analysis across organs, modalities, and patient populations. Recent deep learning methods often combine low-level \"trend-driven\" computational blocks from computer vision, such as large-kernel CNNs, Transformers, and state-space models, with high-level registration-specific designs like motion pyramids, correlation layers, and iterative refinement. Yet, their relative contributions remain unclear and entangled. This raises a central question: should future advances in registration focus on importing generic architectural trends or on refining domain-specific design principles? Through a modular framework spanning brain, lung, cardiac, and abdominal registration, we systematically disentangle the influence of these two paradigms. Our evaluation reveals that low-level \"trend-driven\" computational blocks offer only marginal or inconsistent gains, while high-level registration-specific designs consistently deliver more accurate, smoother, and more robust deformations. These domain priors significantly elevate the performance of a standard U-Net baseline, far more than variants incorporating \"trend-driven\" blocks, achieving an average relative improvement of $\\sim3\\%$. All models and experiments are released within a transparent, modular benchmark that enables plug-and-play comparison for new architectures and registration tasks (https://github.com/BailiangJ/rethink-reg). This dynamic and extensible platform establishes a common ground for reproducible and fair evaluation, inviting the community to isolate genuine methodological contributions from domain priors. Our findings advocate a shift in research emphasis: from following architectural trends to embracing domain-specific design principles as the true drivers of progress in learning-based medical image registration.",
+    "year": 2025,
+    "source": "arXiv",
+    "url": "http://arxiv.org/abs/2512.01913v1",
+    "published_date": "2025-12-01",
+    "relevance_score": 4.0,
+    "search_term": "seismic facies classification CNN"
+  },
+  {
+    "title": "Refining Heuristic Predictors of Fractional Chern Insulators using Machine Learning",
+    "authors": [
+      "Oriol Mayné i Comas",
+      "André Grossi Fonseca",
+      "Sachin Vaidya",
+      "Marin Soljačić"
+    ],
+    "abstract": "We develop an interpretable, data-driven framework to quantify how single-particle band geometry governs the stability of fractional Chern insulators (FCIs). Using large-scale exact diagonalization, we evaluate an FCI metric that yields a continuous spectral measure of FCI stability across parameter space. We then train Kolmogorov-Arnold networks (KANs) -- a recently developed interpretable neural architecture -- to regress this metric from two band-geometric descriptors: the trace violation $T$ and the Berry curvature fluctuations $σ_B$. Applied to spinless fermions at filling $ν=1/3$ in models on the checkerboard and kagome lattices, our approach yields compact analytical formulas that predict FCI stability with over $>80 \\%$ accuracy in both regression and classification tasks, and remain reliable even in data-scarce regimes. The learned relations reveal model-dependent trends, clarifying the limits of Landau-level-mimicking heuristics. Our framework provides a general method for extracting simple, phenomenological \"laws\" that connect many-body phase stability to chosen physical descriptors, enabling rapid hypothesis formation and targeted design of quantum phases.",
+    "year": 2025,
+    "source": "arXiv",
+    "url": "http://arxiv.org/abs/2512.01873v1",
+    "published_date": "2025-12-01",
+    "relevance_score": 4.0,
+    "search_term": "seismic facies classification CNN"
+  },
+  {
+    "title": "Evaluating SAM2 for Video Semantic Segmentation",
+    "authors": [
+      "Syed Hesham Syed Ariff",
+      "Yun Liu",
+      "Guolei Sun",
+      "Jing Yang",
+      "Henghui Ding",
+      "Xue Geng",
+      "Xudong Jiang"
+    ],
+    "abstract": "The Segmentation Anything Model 2 (SAM2) has proven to be a powerful foundation model for promptable visual object segmentation in both images and videos, capable of storing object-aware memories and transferring them temporally through memory blocks. While SAM2 excels in video object segmentation by providing dense segmentation masks based on prompts, extending it to dense Video Semantic Segmentation (VSS) poses challenges due to the need for spatial accuracy, temporal consistency, and the ability to track multiple objects with complex boundaries and varying scales. This paper explores the extension of SAM2 for VSS, focusing on two primary approaches and highlighting firsthand observations and common challenges faced during this process. The first approach involves using SAM2 to extract unique objects as masks from a given image, with a segmentation network employed in parallel to generate and refine initial predictions. The second approach utilizes the predicted masks to extract unique feature vectors, which are then fed into a simple network for classification. The resulting classifications and masks are subsequently combined to produce the final segmentation. Our experiments suggest that leveraging SAM2 enhances overall performance in VSS, primarily due to its precise predictions of object boundaries.",
+    "year": 2025,
+    "source": "arXiv",
+    "url": "http://arxiv.org/abs/2512.01774v1",
+    "published_date": "2025-12-01",
+    "relevance_score": 4.0,
+    "search_term": "seismic facies classification CNN"
+  }
+]
